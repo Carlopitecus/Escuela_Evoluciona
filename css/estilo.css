@@ -1,0 +1,26 @@
+body{
+    background-color:#6BFFFA;
+}
+.logo{
+    width: 3em;
+    border-radius: 30px;
+}
+.nav{
+    background-color:#50BFBC ;
+}
+.contenedor_carrusel{
+    height: 350px;
+    text-align: center;
+    background-color:#1B403F;
+}
+.img_carousel{
+    width: 300px;
+    padding: 5px;
+}
+.img_logo_principal{
+    width: 30%;
+}
+.botones_desplegable{
+    color: white;
+    background-color: #1B403F;
+}

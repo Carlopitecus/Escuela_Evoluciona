@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./imagenes/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Escuela Evoluciona</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="nav navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img class="logo" src="./imagenes/logo.jpg" alt="Logo Evoluciona"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <!-- Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide contenedor_carrusel" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagenes/logo.jpg" class=" img_carousel" alt="...">
+                </div>
+                <div class="carousel-item ">
+                    <img src="./imagenes/ada_que_lee.jpg" class=" img_carousel" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/amor_libros.jpg" class="img_carousel" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/Albert.jpg" class="img_carousel" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/Elefante.jpg" class="img_carousel" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagenes/imaginacion.jpg" class="img_carousel" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div><br>
+        <div>
+            <img class="img_logo_principal" src="./imagenes/logo.jpg" alt="">
+        </div>
+        <hr>
+        <!-- Textos desplegables -->
+        <div style="text-align: center;">
+            <!-- Propuesta -->
+            <div>
+                <p>
+                    <a class="btn botones_desplegable" data-toggle="collapse" href="#propuestaEducativa" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1">¿En qué consiste esta propuesta
+                        educativa?</a>
+                </p>
+                <div class="row">
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="propuestaEducativa">
+                            <div class="card card-body">
+                                Una profesora de educación general básica dirige a grupos de max. 10 alumnos en sus
+                                aprendizajes, según nivel escolar, y los Planes y Programas dictados por el Ministerio de Educación.
+                                Las clases se organizan según un horario que abarca los 4 subsectores troncales que el Mineduc establece.
+                                Lenguaje, Matematicas, Ciencias sociales, Naturaleza e Historia (Con formato de esquema)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- A quien va dirigido -->
+            <div>
+                <p>
+                    <a class="btn botones_desplegable" data-toggle="collapse" href="#aQuienVa" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1">¿A quiénes va dirigido?</a>
+                </p>
+                <div class="row">
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="aQuienVa">
+                            <div class="card card-body">
+                                A todos l@s estudiantes de cualquier nivel educativo que quieran aprender en un sistema
+                                flexible que combina el acceso al aprendizaje a través de recursos tecnológicos además
+                                de estrategias de vinculación social tendientes al desarrollo de competencias que les
+                                permitan enfrentarse a las exigencias del entorno actual y futuro.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Evaluacion -->
+            <div>
+                <p>
+                    <a class="btn botones_desplegable" data-toggle="collapse" href="#evaluacion" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1">¿Cómo se evaluan los
+                        aprendisajes?</a>
+                </p>
+                <div class="row">
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="evaluacion">
+                            <div class="card card-body">
+                                La profesora evalúa semanalmente el desempeño de los estudiantes a través de diversas
+                                estrategias (grabaciones, ensayos escritos, debates, pruebas escritas, exposiciones
+                                orales,
+                                conversaciones guiadas, etc. Que darán cuenta el grado de apropiación curricular que va
+                                logrando
+                                cada estudiante.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Esta reconocida por el MINEDUC -->
+            <div>
+                <p>
+                    <a class="btn botones_desplegable" data-toggle="collapse" href="#mineduc" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1">¿Esta reconocida esta escuela por el
+                        Mineduc?</a>
+                </p>
+                <div class="row">
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="mineduc">
+                            <div class="card card-body">
+                                El Mineduc no reconoce aún a las escuelas de este tipo. Por eso, los estudiantes rinden
+                                examenes libres, con los cuales se obtiene el Certificado Anual de Estudios.
+                                De cualquier forma, le invito a reflexionar sobre qué garantías de seguridad, bienestar
+                                y
+                                de aprendizaje profundo ofrece dicha Certificación
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contacto Familia-Escuela -->
+            <div>
+                <p>
+                    <a class="btn botones_desplegable" data-toggle="collapse" href="#contactoFamiliaEscuela"
+                        role="button" aria-expanded="false" aria-controls="multiCollapseExample1">¿Cómo es el contacto
+                        Familia-Escuela?</a>
+                </p>
+                <div class="row">
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="contactoFamiliaEscuela">
+                            <div class="card card-body">
+                                Hay que llenar esta part de la página.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Ventajas -->
+            <div>
+                <p>
+                    <a class="btn botones_desplegable" data-toggle="collapse" href="#ventajas" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1">¿Qué ventajas ofrece este sistema de
+                        educación?</a>
+                </p>
+                <div class="row">
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="ventajas">
+                            <div class="card card-body">
+                                <p>Algunas de las posibles ventajas y desventajas que este sistema autónomo de estudio
+                                    semipresencial ofrece son las siguientes:</p>
+                                <!-- columnas -->
+                                <div class="container border border-secondary">
+                                    <div class="row">
+                                        <div class="col border border-secondary">
+                                            <div>
+                                                <p>Ventajas</p>
+                                                <ul>
+                                                    <li>
+                                                        Aprendizaje integral con desarrollo de competencias para el
+                                                        futuro
+                                                        (tecnologías, desarrollo de proyectos, autonomía).
+                                                    </li>
+                                                    <li>
+                                                        Se acaban los uniformes.
+                                                    </li>
+                                                    <li>
+                                                        Se acaban los horarios de adultos para nuestros niños.
+                                                    </li>
+                                                    <li>
+                                                        No más transporte escolar.
+                                                    </li>
+                                                    <li>
+                                                        No más clases masivas, donde todos deben avanzar en la misma
+                                                        actividad y al mismo ritmo.
+                                                    </li>
+                                                    <li>
+                                                        Al ser semipresencial, se reduce riesgo de enfermedades
+                                                    </li>
+                                                    <li>
+                                                        Deja tiempo libre para actividades deportivas, artísticas o
+                                                        familiares de gusto personal.
+                                                    </li>
+                                                    <li>
+                                                        Se puede aprender de manera más tranquila, desde la comodidad
+                                                        del hogar.
+                                                    </li>
+                                                    <li>
+                                                        Los estudiantes, con su grupo de compañeros más cercanos pueden
+                                                        organizar, con la tutela de sus apoderados, paseos de fin de
+                                                        año, a los sitios que quieran, sin estar pagando rifas, cuotas
+                                                        ni bingos durante el año.
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col border border-secondary">
+                                            <p>Desventajas</p>
+                                            <ul>
+                                                <li>
+                                                    Se debe contar con la presencia física y tiempo del apoderado en el
+                                                    hogar para apoyar al estudiante mientras desarrolla su plena
+                                                    autonomía.
+                                                </li>
+                                                <li>
+                                                    Se requiere equipos tecnológicos e internet con buena señal.
+                                                </li>
+                                                <li>
+                                                    Se debe contar con una estructura básica en la familia referida a:
+                                                    disponer un lugar de estudio con condiciones adecuadas, respetar el
+                                                    horario de estudio con responsabilidad y respeto de los demás
+                                                    integrantes de la familia (no interrumpir ni meter bulla).
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
