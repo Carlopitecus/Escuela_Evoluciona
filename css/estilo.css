@@ -46,6 +46,11 @@ body{
     width: 85%;
     text-align: center;
 }
+.proyecto__areas--aspecto{
+    padding: 10px;
+    margin: auto;
+    width: 85%;
+}
 .proyecto__lema--aspecto{
     text-align: center;
 }
