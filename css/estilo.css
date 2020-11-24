@@ -8,6 +8,9 @@ body{
 .nav{
     background-color:#50BFBC ;
 }
+.fuente__navbar--size{
+    font-weight: bolder;
+}
 .contenedor_carrusel{
     height: 350px;
     text-align: center;
