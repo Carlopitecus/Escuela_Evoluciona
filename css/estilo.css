@@ -20,7 +20,34 @@ body{
 .img_logo_principal{
     width: 30%;
 }
+/* Video del Home */
+.home__contenedorVideo{
+    text-align: center;
+}
+.home__video--size{    
+    width: 360px;
+    height: 360px;
+}
 .botones_desplegable{
     color: white;
     background-color: #1B403F;
+}
+/* Proyecto educacional */
+.proyecto__titulo--aspecto{
+    text-align: center;
+    text-decoration: underline;    
+}
+.proyecto__vision--aspecto{
+    padding: 10px;
+    margin: auto;
+    width: 85%;
+    text-align: center;
+}
+.proyecto__lema--aspecto{
+    text-align: center;
+}
+.footer{
+    padding: 15px;
+    text-align: center;
+    background-color: #50BFBC;
 }
