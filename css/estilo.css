@@ -35,6 +35,9 @@ body{
     color: white;
     background-color: #1B403F;
 }
+.home__evaluacion--aspecto{
+    text-align: left;
+}
 /* Proyecto educacional */
 .proyecto__titulo--aspecto{
     text-align: center;
