@@ -57,6 +57,18 @@ body{
 .proyecto__lema--aspecto{
     text-align: center;
 }
+/* tabla */
+.tabla__borde{
+    border: 1px solid black;
+}
+td{
+    text-align: center;
+    border: 1px solid black;
+}
+th{
+    text-align: center;
+    border: 1px solid black;
+}
 .footer{
     padding: 15px;
     text-align: center;
